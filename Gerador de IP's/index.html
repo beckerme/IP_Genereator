@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de IP's</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Gerador de IP's</h1>
+    </header>
+
+    <section class="container slide-top">
+        <form>
+            <div class="select">
+                <select name="Classes" id="Classes">
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="A">Classe A</option>
+                    <option value="B">Classe B</option>
+                    <option value="C">Classe C</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <input type="button" value="Gerar IP" onclick="random()">
+                <input type="text" name="Resultado" id="Resultado" readonly>
+            </div>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
