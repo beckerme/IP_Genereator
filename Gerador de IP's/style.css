@@ -45,6 +45,7 @@ body{
     font-size: 1em;
     outline: 0;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .input{
