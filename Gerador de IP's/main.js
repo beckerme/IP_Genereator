@@ -3,9 +3,11 @@ function random(){
     var valores = selecionar.options[selecionar.selectedIndex].value;
     var resultado = document.getElementById('Resultado');
 
-    if (valores == "Selecionar")
+    if (valores == "Selecionar"){
         alert('Por favor, selecione uma classe')
-
+        resultado.value = ""
+    }
+    
     else if (valores == "A") {
         let n1 = 1 + Math.floor(254*Math.random())
         let n2 = 1 + Math.floor(254*Math.random())
