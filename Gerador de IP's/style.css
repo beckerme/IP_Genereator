@@ -35,6 +35,7 @@ body{
 .select{
     display: flex;
     justify-content: center;
+    height: 4.8em;
 }
 
 #Classes{
@@ -43,6 +44,7 @@ body{
     margin-top: 2em;
     font-size: 1em;
     outline: 0;
+    cursor: pointer;
 }
 
 .input{
