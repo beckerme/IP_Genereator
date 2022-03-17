@@ -1,0 +1,33 @@
+@media (min-width: 300px) and (max-width: 630px) {
+    .container{
+    background-color: #126a88;
+    width: 30em;
+    height: 20em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 0px #00000078
+}
+    
+}
+
+@media (min-width: 300px) and (max-width: 474px) {
+    .container{
+    background-color: #126a88;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px 0px #00000078
+}
+
+#Resultado {
+    width: 10em;
+  }
+    
+}
