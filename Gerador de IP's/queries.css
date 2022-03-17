@@ -1,4 +1,8 @@
 @media (min-width: 300px) and (max-width: 630px) {
+    body{
+        background-image: radial-gradient(circle at -10.93% 33.67%, #a8e3f5 0, #8ad0e7 15%, #6bbdd9 30%);
+    }
+
     .container{
     background-color: #126a88;
     width: 30em;
@@ -14,6 +18,11 @@
 }
 
 @media (min-width: 300px) and (max-width: 474px) {
+
+    body{
+        background-image: radial-gradient(circle at -10.93% 33.67%, #a8e3f5 0, #8ad0e7 15%, #6bbdd9 30%);
+    }
+
     .container{
     background-color: #126a88;
     width: 20em;
